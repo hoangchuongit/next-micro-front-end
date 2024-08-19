@@ -13,7 +13,7 @@ const nextConfig = {
         exposes: {
           './BaseNode': './components/workflow/nodes/_base/node.tsx',
         },
-        shared: {},
+        shared: ['react', 'react-dom'],
         extraOptions: {
           exposePages: true,
         },
